@@ -1,19 +1,19 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.2;
+pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract FiredGuys is ERC721, ERC721URIStorage, Ownable {
+contract NFTBoys is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
 
     mapping(string => uint8) existingURIs;
 
-    constructor() ERC721("FiredGuys", "FYR") {}
+    constructor() ERC721("NFTBoys", "NB") {}
 
     function _baseURI() internal pure override returns (string memory) {
         return "ipfs://";
@@ -24,7 +24,6 @@ contract FiredGuys is ERC721, ERC721URIStorage, Ownable {
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
-        existingURIs[uri] = 1;
     }
 
     // The following functions are overrides required by Solidity.
@@ -66,6 +65,4 @@ contract FiredGuys is ERC721, ERC721URIStorage, Ownable {
     function count() public view returns (uint256) {
         return _tokenIdCounter.current();
     }
-
-
 }
