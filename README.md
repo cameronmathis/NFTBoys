@@ -1,4 +1,6 @@
 [![license](https://img.shields.io/github/license/cameronmathis/NFTBoys)](LICENSE)
+[![React Build](https://github.com/cameronmathis/NFTBoys/actions/workflows/react-build.yaml/badge.svg)](https://github.com/cameronmathis/NFTBoys/actions/workflows/react-build.yaml)
+[![CodeQL](https://github.com/cameronmathis/NFTBoys/actions/workflows/codeql-analysis.yaml/badge.svg)](https://github.com/cameronmathis/NFTBoys/actions/workflows/codeql-analysis.yaml)
 [![CodeFactor](https://www.codefactor.io/repository/github/cameronmathis/nftboys/badge)](https://www.codefactor.io/repository/github/cameronmathis/nftboys)
 
 # NFTBoys
