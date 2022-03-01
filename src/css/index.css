@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Properties */
+:root {
+  --ff-secondary: "Comic Sans MS";
+
+  --clr-main: #d91b60;
+  --clr-light: #fffefc;
+  --clr-dark: #212121;
+
+  --txt-main: #d91b60;
+  --txt-light: #fffefc;
+  --txt-dark: #212121;
+}

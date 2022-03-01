@@ -1,22 +1,29 @@
+[![license](https://img.shields.io/github/license/cameronmathis/NFTBoys)](LICENSE)
+[![CodeFactor](https://www.codefactor.io/repository/github/cameronmathis/nftboys/badge)](https://www.codefactor.io/repository/github/cameronmathis/nftboys)
+
 # NFTBoys
 
-## Usage
+## Table of contents
 
-```bash
-git clone <this-repo>
-npm install
+- [General info](#general-info)
+- [Status](#status)
+- [Language details](#Language-details)
+- [Contact](#contact)
 
-# terminal 1
-npx hardhat node
+## General info
 
-# terminal 2
-npx hardhat compile
-npx hardhat run scripts/sample-script.js --network localhost
+This is a project I worked on to familiarize myself with the development of NFTs and Cryptocurrencies.
 
-# terminal 3
-npm run dev
-```
+## Status
 
-Update the deployed contract address in `src/components/Home.jsx`
+Version: 1.0.0 Alpha </br>
+Project is: _In Progress_
 
-_Created following [this tutorial](https://www.youtube.com/watch?v=meTpMP0J5E8)._
+## Language details
+
+Library: React 17.0.2 </br>
+JavaScript Interpreter: Node 10.0 </br>
+
+## Contact
+
+Created by [@cameronmathis](https://github.com/cameronmathis/) - feel free to contact me!

@@ -96,6 +96,7 @@ function createImage(idx) {
       .replace("<!-- cross -->", getLayer(`cross${cross}`));
 
     const meta = {
+      id: idx,
       name,
       description: `A drawing of ${name.split("-").join(" ")}`,
       image: `${idx}.png`,
